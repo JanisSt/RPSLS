@@ -1,0 +1,98 @@
+h1{
+    text-align: center;
+}
+
+.back {
+    background-image: url(https://wallpaperaccess.com/full/2010220.png);
+    background-size:100% 100%;
+
+}
+
+.zone{
+    height: 70%;
+}
+
+.clicker {
+    height: 20%;
+    width: 19%;
+    background-color: white;
+    float: left;
+    margin: 10px;
+    text-align: left;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+    opacity: 0.8;
+    transition: 0.3s;
+    font-weight: bold;
+
+}
+.clicker:hover {opacity: 1}
+
+.clicker:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    background-color: #3e8e41;
+
+}
+
+.rock {
+    background-image: url(https://thestyleinspiration.com/wp-content/uploads/2019/11/tattoo.jpg);
+    background-size: cover;
+}
+.paper {
+    background-image: url(https://www.vvt.lv/wp-content/uploads/2018/02/258-lv-industrialais-papirs-1.jpg);
+    background-size: cover;
+}
+
+.scissors {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS2crbFnw54VWtyePKAfbGrV818nFcvdOvOBg&usqp=CAU);
+    background-size: cover;
+
+}
+.spock {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIxpllshIJcHmjIrpO_hgigeGz-3jj8EQ0hQ&usqp=CAU);
+    background-size: cover;
+}
+.lizard {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR4-aTbx6t0EZul7vaEB9BfC-2Cqyd_wxlsKQ&usqp=CAU);
+    background-size: cover;
+}
+.player {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 60%;
+    bottom: 0;
+    margin: auto;
+
+}
+.pc {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 60%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.sign {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.game {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
